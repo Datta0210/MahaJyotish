@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="mr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>महाज्योतिष - प्रीमियम अंकशास्त्र अहवाल</title>
+    <meta name="description" content="तुमचा वैयक्तिक जीवन मार्ग अहवाल मिळवा." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Noto+Sans+Devanagari:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              midnight: '#021017',
+              paper: '#FFFDF5',
+              gold: {
+                100: '#FFF9C4',
+                300: '#FFD54F',
+                400: '#FFCA28',
+                500: '#FFD643', // Primary Gold
+                600: '#FFB300',
+                700: '#FFA000',
+              },
+              emerald: {
+                500: '#10B981', // Free/Success
+                600: '#059669',
+              },
+              deep: {
+                800: '#0f172a',
+                900: '#020617',
+              },
+            },
+            fontFamily: {
+              serif: ['Playfair Display', 'serif'],
+              sans: ['Poppins', 'sans-serif'],
+              marathi: ['Noto Sans Devanagari', 'sans-serif'],
+            },
+            backgroundImage: {
+              'mystic-gradient': 'linear-gradient(to bottom, #021017, #0f172a)',
+              'gold-gradient': 'linear-gradient(135deg, #FFD643 0%, #FFB300 100%)',
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        background-color: #021017;
+        color: #f8fafc;
+        font-family: 'Noto Sans Devanagari', 'Poppins', sans-serif;
+      }
+      .font-serif {
+        font-family: 'Playfair Display', serif;
+      }
+      
+      /* Print Styles for PDF Generation */
+      @media print {
+        @page {
+          margin: 1cm;
+          size: A4;
+        }
+        body {
+          background-color: white !important;
+          color: black !important;
+          -webkit-print-color-adjust: exact !important;
+          print-color-adjust: exact !important;
+        }
+        .no-print {
+          display: none !important;
+        }
+        .printable-report {
+          background-color: white !important;
+          color: black !important;
+          box-shadow: none !important;
+          width: 100% !important;
+          max-width: 100% !important;
+          margin: 0 !important;
+          padding: 0 !important;
+          border: none !important;
+        }
+        /* Fix text colors for print */
+        .text-gray-300, .text-gray-400, .text-gray-500, .text-gray-600, .text-gray-700 {
+          color: #333 !important;
+        }
+        .text-white {
+          color: #000 !important;
+        }
+        .bg-midnight, .bg-deep-900, .bg-deep-800 {
+          background-color: white !important;
+          color: black !important;
+          border: 1px solid #ccc !important;
+        }
+        /* Ensure gold colors translate to dark orange/brown for readability */
+        .text-gold-400, .text-gold-500, .text-gold-600 {
+          color: #b45309 !important; 
+        }
+        /* Hide complex backgrounds */
+        .bg-mystic-gradient {
+          background: white !important;
+        }
+        /* Ensure lists are visible */
+        ul li {
+          color: black !important;
+        }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@0.292.0?deps=react@18.2.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.33.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@6.28.0?deps=react@18.2.0,react-dom@18.2.0",
+    "react": "https://esm.sh/react@18.2.0",
+    "react/": "https://esm.sh/react@18.2.0/",
+    "react-dom": "https://esm.sh/react-dom@18.2.0?deps=react@18.2.0",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client?deps=react@18.2.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "html2canvas": "https://esm.sh/html2canvas@1.4.1",
+    "jspdf": "https://esm.sh/jspdf@2.5.1"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

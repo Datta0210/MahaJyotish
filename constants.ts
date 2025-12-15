@@ -1,0 +1,58 @@
+import { Translation } from './types';
+
+export const TRANSLATIONS: Translation = {
+  appTitle: { en: 'MahaJyotish', mr: 'महाज्योतिष' },
+  home: { en: 'Home', mr: 'मुख्य पृष्ठ' },
+  kundali: { en: 'Kundali', mr: 'जन्मकुंडली' },
+  matchmaking: { en: 'Matchmaking', mr: 'गुण मिलान' },
+  panchang: { en: 'Panchang', mr: 'पंचांग' },
+  horoscope: { en: 'Horoscope', mr: 'राशिभविष्य' },
+  chat: { en: 'Ask Astrologer', mr: 'ज्योतिषींना विचारा' },
+  generate: { en: 'Generate Kundali', mr: 'कुंडली बनवा' },
+  name: { en: 'Name', mr: 'नाव' },
+  dob: { en: 'Date of Birth', mr: 'जन्म तारीख' },
+  tob: { en: 'Time of Birth', mr: 'जन्म वेळ' },
+  pob: { en: 'Place of Birth', mr: 'जन्म ठिकाण' },
+  gender: { en: 'Gender', mr: 'लिंग' },
+  male: { en: 'Male', mr: 'पुरुष' },
+  female: { en: 'Female', mr: 'स्त्री' },
+  north: { en: 'North Indian', mr: 'उत्तर भारतीय' },
+  south: { en: 'South Indian', mr: 'दक्षिण भारतीय' },
+  todayPanchang: { en: "Today's Panchang", mr: 'आजचे पंचांग' },
+  sunrise: { en: 'Sunrise', mr: 'सूर्योदय' },
+  sunset: { en: 'Sunset', mr: 'सूर्यास्त' },
+  tithi: { en: 'Tithi', mr: 'तिथी' },
+  nakshatra: { en: 'Nakshatra', mr: 'नक्षत्र' },
+  yoga: { en: 'Yoga', mr: 'योग' },
+  loading: { en: 'Analyzing stars...', mr: 'तार्‍यांचे विश्लेषण करत आहे...' },
+  aiInsight: { en: 'AI Astrologer Insight', mr: 'एआय ज्योतिष मार्गदर्शन' },
+  askQuestion: { en: 'Ask a question about your future...', mr: 'तुमच्या भविष्याबद्दल प्रश्न विचारा...' },
+  send: { en: 'Send', mr: 'पाठवा' },
+};
+
+export const ZODIAC_SIGNS = [
+  { en: 'Aries', mr: 'मेष' },
+  { en: 'Taurus', mr: 'वृषभ' },
+  { en: 'Gemini', mr: 'मिथुन' },
+  { en: 'Cancer', mr: 'कर्क' },
+  { en: 'Leo', mr: 'सिंह' },
+  { en: 'Virgo', mr: 'कन्या' },
+  { en: 'Libra', mr: 'तुळ' },
+  { en: 'Scorpio', mr: 'वृश्चिक' },
+  { en: 'Sagittarius', mr: 'धनु' },
+  { en: 'Capricorn', mr: 'मकर' },
+  { en: 'Aquarius', mr: 'कुंभ' },
+  { en: 'Pisces', mr: 'मीन' },
+];
+
+export const MOCK_PLANETS: {name: string, symbol: string}[] = [
+  { name: 'Sun', symbol: 'Su' },
+  { name: 'Moon', symbol: 'Mo' },
+  { name: 'Mars', symbol: 'Ma' },
+  { name: 'Mercury', symbol: 'Me' },
+  { name: 'Jupiter', symbol: 'Ju' },
+  { name: 'Venus', symbol: 'Ve' },
+  { name: 'Saturn', symbol: 'Sa' },
+  { name: 'Rahu', symbol: 'Ra' },
+  { name: 'Ketu', symbol: 'Ke' },
+];
